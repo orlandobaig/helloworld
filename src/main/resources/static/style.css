@@ -1,0 +1,20 @@
+body {
+    background-color: #222;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    display: block;
+    margin: 5px 0;
+}
+
+.response {
+    margin-top: 10px;
+    color: lightgreen;
+}

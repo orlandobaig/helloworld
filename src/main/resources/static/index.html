@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios de Bienvenida</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <h1>Formulario GET</h1>
+    <form action="/greet-get" method="get" target="_blank">
+        <label for="nameGet">Nombre:</label>
+        <input type="text" id="nameGet" name="name">
+        <button type="submit">Enviar (GET)</button>
+    </form>
+
+    <h1>Formulario POST</h1>
+    <form action="/greet-post" method="post" target="_blank">
+        <label for="namePost">Nombre:</label>
+        <input type="text" id="namePost" name="name">
+        <button type="submit">Enviar (POST)</button>
+    </form>
+
+    <h1>Formulario JSON (JavaScript)</h1>
+    <form id="jsonForm">
+        <label for="nameJson">Nombre:</label>
+        <input type="text" id="nameJson" name="name">
+        <button type="submit">Enviar (JSON)</button>
+    </form>
+
+    <div class="response" id="jsonResponse"></div>
+   
+</body>
+<script src="/script.js"></script>
+</html>
